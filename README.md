@@ -30,8 +30,8 @@ Integrate it with smart devices /smart fridge /and with grocery apps like wegman
 
 # Running Instructions
 ## Requirements
-Python3 with 'django' and 'requests' module.
+Python3 with `django` and `requests` module.
 
 ## Running instructions
-* To run clone repository using 'git clone <repository link>'
-* Run using below command in base directory 'python3 manage.py runserver'
+* To run clone repository using `git clone <repository link>`
+* Run using below command in base directory `python3 manage.py runserver`
