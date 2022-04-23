@@ -1,7 +1,7 @@
 # whats-in-your-fridge
 `WiCHacks 2022 Winner: [Wayfair] Best Customer Focus Hack`
 # Inspiration
-When it comes to deciding on what to cook ,students usually struggle because of the amount of time they have in their hands. They end up eating out spending a lot of money and also rotting all the stuff present in their fridge.
+When it comes to cooking, students often struggle deciding on what to cook because of the amount of time they have in their hands after all the lectures and submissions. They end up eating out spending a lot of money and also rotting all the stuff present in their fridge.
 
 # What it does
 Recommends recipes based on ingredients in the kitchen and user behavior that is what the person likes to eat and has liked in the past so that the ingredients are used before they expire!
