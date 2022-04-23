@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Home.</title>
+    <link rel="stylesheet"  href="{%  static  'css/home-css.css'  %}">
+</head>
+<body>
+<div class="container">
+  <div class="split left">
+    <h1>ADD!</h1>
+    <a href="/add/" class="button">Continue</a>
+  </div>
+  <div class="split right">
+    <h1>COOK!</h1>
+    <a href="/cook/" class="button">Continue</a>
+  </div>
+</div>
+{% load static %}
+<script src="{% static '/js/home-js.js' %}"></script>
+</body>
+</html>

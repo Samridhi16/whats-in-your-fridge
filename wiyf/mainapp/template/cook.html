@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <title>TOP 10</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet"  href="{%  static  'css/cook-css.css'  %}">
+</head>
+<body style="background-color:#041a3d;">
+
+<div class="container">
+  <h2 class="text-center" color=white;><u>Top 10 recipes out of your fridge!</u></h2><br>
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Ingredients</th>
+        <th>Rating</th>
+        <th>frequency</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% if d %}
+    {% for i in d %}
+      <tr>
+        <td>{{i.Name}}</td>
+        <td>{{i.Ingredients}}</td>
+        <td>{{i.Rating}}</td>
+        <td>{{i.frequency}}</td>
+      </tr>
+    {% endfor %}
+    {% endif %}
+    </tbody>
+  </table>
+</div>
+  <form>
+    <a href="/..">
+      HOME
+    </a>
+  </form>
+</body>
+</html>
