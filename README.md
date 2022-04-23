@@ -9,7 +9,7 @@ Recommends recipes based on ingredients in the kitchen and user behavior that is
 # How we built it
 Created recommendation engine that makes use of content based filtering using python and frontend was developed using django, html, js and css.
 
-# What's next for What's In Your Fridge
+# What's next
 Integrate it with smart devices /smart fridge /and with grocery apps like wegmans and walmart to recommend ingredients that you might buy to make a specific recipe.
 
 # Application Flow
